@@ -5,30 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Web - Mateus Angelino de Sousa</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <ul>
-        <li><a href="#lista-habilidades">Lista de Habilidades</a></li>
-        <li><a href="#informacoes">Informações</a></li>
-    </ul>
-
-    <img src="trybe.png" alt="logo-trybe" width="500px">
-
-    <h1>Mateus Angelino de Sousa</h1>
-    <img id="foto" src="mateus.jpg" alt="Foto do Mateus" width="500px">
-    <p><em>Eu e o Ikki se divertindo na praia</em></p>
+    <header>
+        <div class="logo">
+            <a href="#"><img src="dachshund.png" alt="logo empresa"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#habilidade">Lista de Habilidades</a></li>
+                <li><a href="#informacoes">Informações</a></li>
+            </ul>
+        </nav>
+    </header>
     
-    <p id="informacoes">Estudante de Desenvolvimento Web na <strong>Trybe</strong>, atualmente moro em <strong>Fortaleza/CE</strong>, sou brasileiro e tenho 26 anos.</p>
+    <main>
+        <h1>Mateus Angelino de Sousa</h1>
+        
+        <div class="galeria">
+            <div class="bloco">
+                <img class="img" id="foto" src="mateus.jpg" alt="Foto do Mateus">
+                <p>Eu e o Ikki se divertindo na praia</p>
+            </div>
+            
+            <div class="bloco">
+                <img class="img" src="trybe.png" alt="logo-trybe">
+                <p id="informacoes">Estudante de Desenvolvimento Web na <strong>Trybe</strong>, atualmente moro em <strong>Fortaleza/CE</strong>, sou <em>brasileiro</em> e tenho 26 anos.</p>
+            </div>
+        </div>
 
-    <p id="lista-habilidades">Lista de Habilidades</p>
-    <ul>
-        <li><strong>Espírito de Equipe</strong></li>
-        <li>Comprometimento</li>
-        <li>Foco</li>
-    </ul>
+        
+        <aside>
+            <div id="habilidade">
+                <h2>Lista de Habilidades</h2>
+                <ul>
+                    <li><strong>Espírito de Equipe</strong></li>
+                    <li>Comprometimento</li>
+                    <li>Foco</li>
+                </ul>
+            </div>
+        </aside>
+    </main>
 
-    <a href="#foto">Minha foto</a>
-    <a href="https://blog.counter-strike.net/" target="_blank">Meu blog favorito</a>
+    <footer>
+        <a href="#foto">Minha foto</a>
+        <a href="https://blog.counter-strike.net/" target="_blank">Meu blog favorito</a>
+    </footer>
 </body>
 </html>
